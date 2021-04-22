@@ -7,21 +7,23 @@ nav{
     padding-left: 20px;
 }
 
-.brand{
-    font-size: 24px;
+/* .brand{
+    font-size: 30px;
     color: white;
-}
+} */
 
-nav ul{
+nav ul{    
+    font-size: 20px;
     list-style: none;
 }
 
 nav ul li{
     display: inline-block;
     margin-right: 8px;
+    padding: 10px;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }

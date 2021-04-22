@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-// import '../../index.css';
+//import '../../index.css';
 import './Navigation.css';
+import image from '../../Images/logo1.png';
 
 class Navigation extends Component {
     render() {
 
         const sections = ['Home', 'About', 'Portfolio', 'Contact'];
-
         const navLinks = sections.map(section => {
             return(
                 <li><a href = {'#'+ section } > {section} </a></li>
@@ -16,7 +16,8 @@ class Navigation extends Component {
 
         return (
             <nav>
-                <h2 className="brand">{this.props.brandName}</h2>
+                {/* <h2 className="brand">{this.props.brandName}</h2> */}
+                <h2 className="brand"><img src={image} alt="Logo" height="50px"  /></h2>
                 <ul>
                     {/* {navLinks} */}
                 </ul>
