@@ -1,11 +1,13 @@
-import './App.css';
+//import './App.css';
+
+import Navigation from './Components/Navigation/Navigation';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-        <h3>Hello, Folks </h3>
-        <h3>Welcome, to my website</h3>
-        <h1>Hrushikesh Badgujar</h1>
+        <Navigation brandName="Hrushikesh Badgujar"/>
+        <Header/>
     </div>
   );
 }
