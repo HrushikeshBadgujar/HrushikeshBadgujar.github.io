@@ -20,7 +20,7 @@ class Header extends Component {
                 <h2>I design & build websites</h2>
                 {/* <a href="#button">Find out more</a> */}
 
-                <li><a href="/markdown-preview">Markdown Preview</a></li>
+                <a href="/markdown-preview">Markdown Preview</a>
             </header>
         );
     }
