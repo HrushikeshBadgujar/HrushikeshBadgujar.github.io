@@ -21,7 +21,7 @@ class Navigation extends Component {
                 {/* <h2 className="brand">{this.props.brandName}</h2> */}
                 <h2 className="brand"><img src={image} alt="Logo" height="50px"  /></h2>
                 <ul>
-                    <li><a href="https://hrushikeshbadgujar.github.io/markdown-preview/">Markdown Preview</a></li>
+                    <li><a href="/markdown-preview">Markdown Preview</a></li>
                     {/* {navLinks} */}
                 </ul>
             </nav>
