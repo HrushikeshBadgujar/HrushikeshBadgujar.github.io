@@ -12,7 +12,6 @@ const heroStyle = {
 class Header extends Component {
     render() {
 
-        
 
         return (
             <header style={heroStyle}>
@@ -20,6 +19,8 @@ class Header extends Component {
                 <h1>I'm Hrushikesh Badgujar.</h1>
                 <h2>I design & build websites</h2>
                 {/* <a href="#button">Find out more</a> */}
+
+                <li><a href="/markdown-preview">Markdown Preview</a></li>
             </header>
         );
     }
